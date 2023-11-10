@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.api-btn {
+    box-shadow: 3px 3px 3px rgba(20, 158, 70, 1);
+}
+
+.git-btn {
+    box-shadow: 3px 3px 3px rgba(250, 250, 250, 1);
+}
+
+.submit-btn {
+    box-shadow: 5px 3px 3px #043101;
+    background: rgba(20, 158, 70, 1);
+}
+
+.feature-block {
+    background-color: #25d615;
+}
+
+.feature-box-shadow {
+    box-shadow: 3px 3px 0px white;
+}
+
+.feature-btn {
+    box-shadow: 3px 3px 0px white;
+    background: rgba(20, 158, 70, 1);
+    margin: 30px auto;
+}
+
+.name {
+    display: grid;
+}
+
+/* Docs */
+.docs-btn {
+    box-shadow: 3px 3px 0px black;
+    background: rgba(20, 158, 70, 1);
+}
+
+
+.bg-color {
+    background-color: #e9d2b0;
+}
+
+/* footer */
+
+
+
+/*  About  */
+.about-bottom-banner {
+    background: rgba(255, 246, 229, 1);
+}
+
+.rotate {
+    rotate: 70deg;
+}
+
+.index-back {
+    z-index: -2;
+}
