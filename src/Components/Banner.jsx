@@ -19,13 +19,6 @@ const Banner = () => {
                     166 store
                 </button>
               </div>
-                {/* <button className='p-6 bg-white font-extrabold rounded-md shadow-sm drop-shadow-sm'>
-                  Get API key
-                </button>
-                <button className='text-white border-[1px] shadow-sm font-bold shadow-red p-6 flex justify-center items-center rounded-md'>
-                    <BsGithub  className='mr-2'/>
-                    166 store
-                </button> */}
             </div>
         </section>
     </>

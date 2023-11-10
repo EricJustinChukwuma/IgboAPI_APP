@@ -11,7 +11,7 @@ const AboutGoals = () => {
 
                 <div className='w-full md:w-[37.5rem] flex flex-col justify-start items-end md:justify-end md:items-end mb-10 md:mb-20 pb-10 md:pb-28 px-4 md:px-8 text-right ml-auto relative'>
                     <h1 className='text-4xl md:text-7xl pb-10 md:pb-20'>Our goal</h1>
-                    <p className='text-sm md:text-lg'>Our main goal is to make an easy-to-access, robust, lexical Igbo Labguage resource to help solve a variety of complex problems within the worlds of education to Machine Learning</p>
+                    <p className='text-sm md:text-lg'>Our main goal is to make an easy-to-access, robust, lexical Igbo Labguage resource to help solve a variety of complex problems within the worlds of education to Machine Learning.</p>
                 </div>
                 <img src={upDownArrow} alt="" className='w-[6rem] md:w-[13rem] absolute bottom-4 left-[1rem] md:bottom-24 md:left-[15rem]'/>
             </div>

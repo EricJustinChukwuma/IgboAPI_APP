@@ -54,7 +54,7 @@ const Members2 = () => {
 
             <div className='inline-flex w-full md:w-[27.5rem] h-full md:h-[100vh] flex-col items-center text-center gap-[1rem] md:gap-[3rem] pt-[5rem] md:pt-[22rem] pb-10 md:pb-0'>
                 <h1 className='text-white text-3xl md:text-5xl'>Get an API Key</h1>
-                <p className='text-gray-100 tracking-widest text-sm md:text-md'>Interested in what you see? Register for an <br /> API! for free</p>
+                <p className='text-gray-100 tracking-widest text-sm md:text-md'>Interested in what you see? Register for an <br /> API! for free.</p>
                 <button className='feature-btn px-10 py-4 rounded-md text-white font-semibold border border-black'>
                     Get API key
                 </button>

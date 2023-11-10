@@ -40,12 +40,12 @@ const Footer = () => {
             <div>
                 <h1 className='text-xl pb-[1rem] font-semibold'>Organization</h1>
                 <ul>
-                    <li><a href="">Donate</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">The Team</a></li>
-                    <li><a href="">Volunteer</a></li>
-                    <li><a href="">Privacy</a></li>
-                    <li><a href="">Terms and Conditions</a></li>
+                    <li className='hover:text-gray-500 cursor-pointer'><a href="">Donate</a></li>
+                    <li className='hover:text-gray-500 cursor-pointer'><a href="">About</a></li>
+                    <li className='hover:text-gray-500 cursor-pointer'><a href="">The Team</a></li>
+                    <li className='hover:text-gray-500 cursor-pointer'><a href="">Volunteer</a></li>
+                    <li className='hover:text-gray-500 cursor-pointer'><a href="">Privacy</a></li>
+                    <li className='hover:text-gray-500 cursor-pointer'><a href="">Terms and Conditions</a></li>
                 </ul>
             </div>
         </section>

@@ -4,6 +4,7 @@ import flight1 from "../assets/flight_takeoff.svg";
 import flight2 from "../assets/flight_takeoff_24dp.svg";
 import flight3 from "../assets/flight_takeoff_black.svg";
 import flight4 from "../assets/flight_takeoff_black_24dp.svg";
+import flight5 from "../assets/Frame 4188.svg";
 
 const SeeMore = () => {
   return (

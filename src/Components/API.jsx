@@ -1,8 +1,7 @@
 import React from 'react';
-import { BiCopy, BiCopyAlt } from "react-icons/bi";
+// import { BiCopy, BiCopyAlt } from "react-icons/bi";
 import { CgCopy } from "react-icons/cg";
-import { FaCopy, FaRegCopy } from "react-icons/fa";
-import { MdCopyAll } from "react-icons/md";
+import { FaRegCopy } from "react-icons/fa";
 import Bgimage from "../assets/grid.jpg";
 
 const API = () => {
@@ -21,7 +20,7 @@ const API = () => {
                     </div>
                     <div className='w-full pr-6 pl-4 py-6 bg-white'>
                         <h1 className='text-[21px] mb-4 font-bold'>Query</h1>
-                        <div className='flex flex-col md:flex-row justify-start items-start gap-y-4 md:gap-y-0'>
+                        <form className='flex flex-col md:flex-row justify-start items-start gap-y-4 md:gap-y-0'>
                             <div className='flex items-center'>
                                 <input type="checkbox" className='w-[20px] h-[20px] mr-2 cursor-pointer'/>
                                 <label htmlFor="Examples" className='mr-5 text-md font-semibold'>Examples</label>
@@ -30,7 +29,7 @@ const API = () => {
                                 <input type="checkbox" className='w-[20px] h-[20px] mr-2 cursor-pointer'/>
                                 <label htmlFor="Dialects" className='text-md font-semibold'>Dialects</label>
                             </div>
-                        </div>
+                        </form>
                         <div className='mt-8 relative'>
                             <h3 className='font-bold mb-2'>End Point</h3>
                             <input 

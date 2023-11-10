@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import confetti1 from "../assets/freepik--Confetti--inject-102.svg";
 import confetti2 from "../assets/freepik--Confetti--inject-102 (1).svg";
 import supportImage from "../assets/image 1.jpg";
